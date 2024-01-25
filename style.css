@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body{
+    background-color: #674bb9;
+}
+
+h1{
+    background-color: #081b31;
+    color:white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+h1:hover{
+    background-color: #674bb9;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move .8s ease-in forwards;
+
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+@keyframes move{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.score-board{
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 3rem;
+    
+}
+.msg-container{
+    margin-top: 60px;
+}
+
+#msg{
+    background-color: #081b31;
+    color:#fff;
+    font-size: 2rem;
+    display: inline;
+    padding:1rem;
+    border-radius: 10px;
+}
+
+#msg:hover{
+    border:2px solid rgb(255,255,255);
+}
