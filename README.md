@@ -1,3 +1,1 @@
-Enhancing my JS skills through minin projects and Rock paper scissors is one them
-It would allow you to compete with machine to guess the winnig possibility 
-out come
+Rock, Paper, Scissors is a simple yet widely known hand game played between two people. Each player simultaneously forms one of three shapes with their hand: rock (a fist), paper (an open hand), or scissors (a fist with the index and middle fingers extended, forming a V). The outcome is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. The game is often used as a decision-making tool or as a playful way to settle disputes. Its simplicity and universal appeal make it a timeless and enjoyable pastime across cultures and ages.
